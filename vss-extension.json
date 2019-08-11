@@ -1,0 +1,73 @@
+{
+    "manifestVersion": 1,
+    "id": "CosmosDbThroughputScalerExtension",
+    "name": "Cosmos DB Throughput Scaler Extention",
+    "version": "1.0.12",
+    "publisher": "williamoconnor",
+    "public": false,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Scale Cosmos DB RU throughput",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon-square.png"
+    },
+    "tags": [
+        "releasemanagement",
+        "cosmos",
+        "az"
+    ],
+    "files": [
+        {
+            "path": "buildAndReleaseTask"
+        },
+        {
+            "path": "images/settings.png",
+            "addressable": "true"
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
+    "branding": {
+        "theme": "light",
+        "color": "rgb(91, 198, 116)"
+    },
+    "screenshots": [
+        {
+            "path": "images/settings.png"
+        }
+    ],
+    "links": {
+        "license": {
+            "uri": "https://github.com/williamoconnorme/AzureDevOpsCosmosDbScaleTask/blob/master/license.txt"
+        },
+        "issues": {
+            "uri": "https://github.com/williamoconnorme/AzureDevOpsCosmosDbScaleTask/issues"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/williamoconnorme/AzureDevOpsCosmosDbScaleTask"
+    },
+
+    "contributions": [
+        {
+            "id": "CosmosDbScaler",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "buildAndReleaseTask"
+            }
+        }
+    ]
+}
