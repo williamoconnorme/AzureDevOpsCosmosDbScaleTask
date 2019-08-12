@@ -1,7 +1,7 @@
 {
-    "id": "11f18d28-72b3-41e0-a85b-291e2739752b",
-    "name": "CosmosDBScaler",
-    "friendlyName": "Cosmos DB Scaler",
+    "id": "11f18d28-72b3-41e0-a85b-291e2739752c",
+    "name": "CosmosDbThroughputScalerExtension",
+    "friendlyName": "Cosmos DB Throughput Scaler",
     "description": "Scale Cosmos DB version 1.0.0",
     "helpMarkDown": "[More Information](https://marketplace.visualstudio.com/items?itemName=williamoconnor.CosmosDbThroughputScalerExtension)",
     "category": "Utility",
@@ -91,7 +91,7 @@
     ],
     "execution": {
         "PowerShell3": {
-            "target": "CosmosDbScaler.ps1"
+            "target": "CosmosDbThroughputScalerExtension.ps1"
         }
     }
 }

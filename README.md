@@ -1,4 +1,4 @@
-# Azure DevOps Release Extension: Azure Cosmos DB Scaler
+# Azure DevOps Release Extension: Azure Cosmos DB Throughput Scaler
 
 This repository contains an Azure DevOps extension that can be used to scale the throughput of a Cosmos database in a Azure DevOps or Azure DevOps server release pipeline.
 
