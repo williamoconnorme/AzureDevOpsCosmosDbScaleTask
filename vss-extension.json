@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "CosmosDbThroughputScalerExtension",
-    "name": "Cosmos DB Throughput Scaler Extention",
-    "version": "1.0.18",
+    "name": "Cosmos DB Throughput Scaler",
+    "version": "1.0.19",
     "publisher": "williamoconnor",
     "public": true,
     "targets": [
@@ -38,7 +38,7 @@
     },
     "branding": {
         "theme": "light",
-        "color": "rgb(91, 198, 116)"
+        "color": "rgb(128, 128, 192)"
     },
     "screenshots": [
         {
